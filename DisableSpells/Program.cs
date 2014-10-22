@@ -103,6 +103,13 @@ namespace DisableSpells
                 AvailableSpell = SpellSlot.W
             });
 
+            Spells.Add(new SpellStruct
+            {
+                ChampionName = "Sion",
+                AvailableSpell = SpellSlot.R
+            });
+
+
             /*
              * Ashe:
              * -> Fiora: OnAttack: Instant ultimate / no duration limit / less damage / can be attacked
